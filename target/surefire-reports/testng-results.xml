@@ -1,0 +1,1112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="68" passed="68">
+  <reporter-output>
+  </reporter-output>
+  <suite name="org.TestRunFile.TestRunner" duration-ms="151207" started-at="2022-12-22T18:14:38Z" finished-at="2022-12-22T18:17:09Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" class="org.TestRunFile.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Command line test" duration-ms="151207" started-at="2022-12-22T18:14:38Z" finished-at="2022-12-22T18:17:09Z">
+      <class name="org.TestRunFile.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="setUpClass" is-config="true" duration-ms="658" started-at="2022-12-22T23:44:38Z" finished-at="2022-12-22T23:44:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="2651" started-at="2022-12-22T23:44:38Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:44:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the status code of the POST call while creating booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the POST call while creating booking ID of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="1298" started-at="2022-12-22T23:44:41Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:44:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the status line message of the POST call while creating booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the POST call while creating booking ID of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="1517" started-at="2022-12-22T23:44:42Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:44:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the time taken for POST call while creating booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the POST call while creating booking ID of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="1316" started-at="2022-12-22T23:44:44Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:44:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the content type of the POST call while creating booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the POST call while creating booking ID of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="1750" started-at="2022-12-22T23:44:45Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:44:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the BookingID of from response body of the POST call while creating booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the POST call while creating booking ID of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="1312" started-at="2022-12-22T23:44:47Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:44:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the checkIn and checkOut times from response body of the POST call while creating booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the POST call while creating booking ID of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="3951" started-at="2022-12-22T23:44:48Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:44:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the response code of the response post DELETE method call"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the Delete call while removing booking info of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="4375" started-at="2022-12-22T23:44:52Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:44:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the response status of the response post DELETE method call"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the Delete call while removing booking info of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="4123" started-at="2022-12-22T23:44:56Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:45:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the response time of the response post DELETE method call"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the Delete call while removing booking info of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="1579" started-at="2022-12-22T23:45:01Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:45:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the status code of the response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the Health check of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="1438" started-at="2022-12-22T23:45:02Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:45:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the status line message of the response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the Health check of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="1315" started-at="2022-12-22T23:45:04Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:45:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the time taken for response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the Health check of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="1282" started-at="2022-12-22T23:45:05Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:45:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the content type of the response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the Health check of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="1314" started-at="2022-12-22T23:45:06Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:45:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the response body of the response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the Health check of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="4149" started-at="2022-12-22T23:45:07Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:45:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the response parameters of the response post PATCH method call based on modified names while retrieving booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the PATCH call while modifying existing booking info of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="3828" started-at="2022-12-22T23:45:12Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:45:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the response parameters of the response post PATCH method call based on modified names while retrieving booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the PATCH call while modifying existing booking info of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="3912" started-at="2022-12-22T23:45:15Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:45:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the response parameters of the response post PATCH method call based on modified dates while retrieving booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the PATCH call while modifying existing booking info of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="4183" started-at="2022-12-22T23:45:19Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:45:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the response parameters of the response post PATCH method call based on modified dates while retrieving booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the PATCH call while modifying existing booking info of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="3861" started-at="2022-12-22T23:45:24Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:45:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the response parameters of the response post PATCH method call based on modified totalPrice, dates and additionalNeeds while retrieving booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the PATCH call while modifying existing booking info of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="4027" started-at="2022-12-22T23:45:27Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:45:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the response parameters of the response post PATCH method call based on modified totalPrice, dates and additionalNeeds while retrieving booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the PATCH call while modifying existing booking info of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="2559" started-at="2022-12-22T23:45:31Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:45:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the status code of the GET and PUT calls while retrieving booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the PUT call while modifying existing booking info of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="2781" started-at="2022-12-22T23:45:34Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:45:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the status code of the GET and PUT calls while retrieving booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the PUT call while modifying existing booking info of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="2740" started-at="2022-12-22T23:45:37Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:45:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the status code of the GET and PUT calls while retrieving booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the PUT call while modifying existing booking info of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="2782" started-at="2022-12-22T23:45:40Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:45:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the status code of the GET and PUT calls while retrieving booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the PUT call while modifying existing booking info of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="2567" started-at="2022-12-22T23:45:42Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:45:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the status code of the GET and PUT calls while retrieving booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the PUT call while modifying existing booking info of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="2649" started-at="2022-12-22T23:45:45Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:45:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the status code of the GET and PUT calls while retrieving booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the PUT call while modifying existing booking info of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="2718" started-at="2022-12-22T23:45:48Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:45:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the status code of the GET and PUT calls while retrieving booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the PUT call while modifying existing booking info of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="2627" started-at="2022-12-22T23:45:50Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:45:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the status code of the GET and PUT calls while retrieving booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the PUT call while modifying existing booking info of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="2883" started-at="2022-12-22T23:45:53Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:45:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the status code of the GET and PUT calls while retrieving booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the PUT call while modifying existing booking info of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="2894" started-at="2022-12-22T23:45:56Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:45:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the status code of the GET and PUT calls while retrieving booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the PUT call while modifying existing booking info of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="2708" started-at="2022-12-22T23:45:59Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:46:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the status code of the GET and PUT calls while retrieving booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the PUT call while modifying existing booking info of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="2772" started-at="2022-12-22T23:46:01Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:46:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the status code of the GET and PUT calls while retrieving booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the PUT call while modifying existing booking info of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="2598" started-at="2022-12-22T23:46:04Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:46:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the status code of the GET and PUT calls based on modified names while retrieving booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the PUT call while modifying existing booking info of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="2846" started-at="2022-12-22T23:46:07Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:46:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the status code of the GET and PUT calls based on modified names while retrieving booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the PUT call while modifying existing booking info of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="2664" started-at="2022-12-22T23:46:10Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:46:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the status code of the GET and PUT calls based on modified names while retrieving booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the PUT call while modifying existing booking info of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="2771" started-at="2022-12-22T23:46:12Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:46:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the status code of the GET and PUT calls based on modified names while retrieving booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the PUT call while modifying existing booking info of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="1416" started-at="2022-12-22T23:46:15Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:46:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the status code of the GET call while retrieving booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the GET call while retrieving booking ID of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="1408" started-at="2022-12-22T23:46:16Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:46:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the status code of the GET call while retrieving booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the GET call while retrieving booking ID of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="1429" started-at="2022-12-22T23:46:18Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:46:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the status code of the GET call while retrieving booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the GET call while retrieving booking ID of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="1266" started-at="2022-12-22T23:46:19Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:46:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the status line message of the GET call while retrieving booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the GET call while retrieving booking ID of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="1459" started-at="2022-12-22T23:46:21Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:46:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the status line message of the GET call while retrieving booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the GET call while retrieving booking ID of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="1344" started-at="2022-12-22T23:46:22Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:46:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the status line message of the GET call while retrieving booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the GET call while retrieving booking ID of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="1313" started-at="2022-12-22T23:46:23Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:46:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the time taken for GET call while retrieving booking ID info"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the GET call while retrieving booking ID of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="1299" started-at="2022-12-22T23:46:25Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:46:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the time taken for GET call while retrieving booking ID info"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the GET call while retrieving booking ID of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="1334" started-at="2022-12-22T23:46:26Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:46:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the time taken for GET call while retrieving booking ID info"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the GET call while retrieving booking ID of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="1379" started-at="2022-12-22T23:46:27Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:46:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the datatype of the date fields is Date in the booking info"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the GET call while retrieving booking ID of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="1406" started-at="2022-12-22T23:46:29Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:46:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the datatype of the date fields is Date in the booking info"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the GET call while retrieving booking ID of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="1293" started-at="2022-12-22T23:46:30Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:46:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the datatype of the date fields is Date in the booking info"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the GET call while retrieving booking ID of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="1422" started-at="2022-12-22T23:46:31Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:46:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the status code of the GET call while retrieving booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the GET call while retrieving booking IDs based on CheckIn and CheckOut of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="1548" started-at="2022-12-22T23:46:33Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:46:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the status code of the GET call while retrieving booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the GET call while retrieving booking IDs based on CheckIn and CheckOut of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="1287" started-at="2022-12-22T23:46:34Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:46:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the status code of the GET call while retrieving booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the GET call while retrieving booking IDs based on CheckIn and CheckOut of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="1363" started-at="2022-12-22T23:46:36Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:46:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the status code of the GET call while retrieving booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the GET call while retrieving booking IDs based on CheckIn and CheckOut of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="1429" started-at="2022-12-22T23:46:37Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:46:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the status line message of the GET call while retrieving booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the GET call while retrieving booking IDs based on CheckIn and CheckOut of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="1719" started-at="2022-12-22T23:46:38Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:46:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the status line message of the GET call while retrieving booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the GET call while retrieving booking IDs based on CheckIn and CheckOut of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="1363" started-at="2022-12-22T23:46:40Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:46:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the status line message of the GET call while retrieving booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the GET call while retrieving booking IDs based on CheckIn and CheckOut of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="1360" started-at="2022-12-22T23:46:42Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:46:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the status line message of the GET call while retrieving booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the GET call while retrieving booking IDs based on CheckIn and CheckOut of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="1408" started-at="2022-12-22T23:46:43Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:46:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the time taken for GET call while retrieving booking ID info"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the GET call while retrieving booking IDs based on CheckIn and CheckOut of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="1528" started-at="2022-12-22T23:46:44Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:46:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the time taken for GET call while retrieving booking ID info"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the GET call while retrieving booking IDs based on CheckIn and CheckOut of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="1386" started-at="2022-12-22T23:46:46Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:46:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the time taken for GET call while retrieving booking ID info"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the GET call while retrieving booking IDs based on CheckIn and CheckOut of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="1454" started-at="2022-12-22T23:46:47Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:46:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the time taken for GET call while retrieving booking ID info"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the GET call while retrieving booking IDs based on CheckIn and CheckOut of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="3029" started-at="2022-12-22T23:46:49Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:46:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the count of Booking IDs and list out all the Booking IDs from the JSON response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the GET call while retrieving booking IDs based on CheckIn and CheckOut of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="3130" started-at="2022-12-22T23:46:52Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:46:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the count of Booking IDs and list out all the Booking IDs from the JSON response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the GET call while retrieving booking IDs based on CheckIn and CheckOut of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="2872" started-at="2022-12-22T23:46:55Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:46:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the count of Booking IDs and list out all the Booking IDs from the JSON response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the GET call while retrieving booking IDs based on CheckIn and CheckOut of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="3125" started-at="2022-12-22T23:46:58Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:47:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the count of Booking IDs and list out all the Booking IDs from the JSON response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the GET call while retrieving booking IDs based on CheckIn and CheckOut of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="1559" started-at="2022-12-22T23:47:01Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:47:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the status code of the GET call while retrieving booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the GET call while retrieving booking IDs of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="1568" started-at="2022-12-22T23:47:02Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:47:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the status line message of the GET call while retrieving booking ID response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the GET call while retrieving booking IDs of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="1630" started-at="2022-12-22T23:47:04Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:47:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the time taken for GET call while retrieving booking ID info"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the GET call while retrieving booking IDs of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="feature" duration-ms="2955" started-at="2022-12-22T23:47:06Z" description="Runs cucumber feature" data-provider="features" finished-at="2022-12-22T23:47:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the count of Booking IDs and list out all the Booking IDs from the JSON response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate various scenarios for the GET call while retrieving booking IDs of the Restful Booker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:org.TestRunFile.TestRunner@675d3402]" name="tearDownClass" is-config="true" duration-ms="281" started-at="2022-12-22T23:47:09Z" finished-at="2022-12-22T23:47:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- org.TestRunFile.TestRunner -->
+    </test> <!-- Command line test -->
+  </suite> <!-- org.TestRunFile.TestRunner -->
+</testng-results>

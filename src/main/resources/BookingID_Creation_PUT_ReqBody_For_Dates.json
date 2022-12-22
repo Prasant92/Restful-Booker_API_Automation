@@ -1,0 +1,11 @@
+{
+  "firstname": "Dane",
+  "lastname": "Liu",
+  "totalprice": 111,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2018-10-11",
+    "checkout": "2019-11-11"
+  },
+  "additionalneeds": "Dinner"
+}
