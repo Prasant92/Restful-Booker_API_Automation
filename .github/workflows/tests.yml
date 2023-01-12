@@ -4,7 +4,10 @@ on:
   push:
     branches: [ master ]
   pull_request:
-    branches: [ master ]
+    branches: [ master ] 
+  schedule:
+    # Runs "at midnight every weekday except weekends"
+    - cron: '0 0 * * 1-5'
 
 jobs:
   test-job:
