@@ -1,6 +1,5 @@
 {
   "name": "RestFul-Booker-API-Automation",
-  "onCreateCommand": "mvn clean install dependency:sources",
   "hostRequirements": {
     "cpus": 2,
     "memory": "4gb",
@@ -11,7 +10,7 @@
         "ghcr.io/devcontainers/features/go:1": {
             "version": "1.18"
         },
-        "ghcr.io/devcontainers/features/docker-in-docker:1": {
+        "ghcr.io/devcontainers/features/docker-in-docker:2.3.0": {
             "version": "latest",
             "moby": true
         }
