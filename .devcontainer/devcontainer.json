@@ -1,0 +1,18 @@
+{
+  "name": "RestFul-Booker-API-Automation",
+  "hostRequirements": {
+    "cpus": 2,
+    "memory": "4gb",
+    "storage": "32gb"
+  },
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+        "ghcr.io/devcontainers/features/go:1": {
+            "version": "1.18"
+        },
+        "ghcr.io/devcontainers/features/docker-in-docker:2.3.0": {
+            "version": "latest",
+            "moby": true
+        }
+    }
+}
